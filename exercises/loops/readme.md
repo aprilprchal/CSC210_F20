@@ -1,17 +1,17 @@
 ## CSC210 Breakout Room Exercise : Loops and Arrays
 ### Tuesday, Sept 8
 
-This lab is a group exercise to give you practice in solving a computational problem that requires either a for-loop or a while-loop. You will be developing code using a technique called *Pair Programming*. There is an excellent article on the subject here: https://www.sitepoint.com/pair-programming-guide/. 
+This lab is a group exercise to give you practice in solving a computational problem that requires either a for-loop or a while-loop. You will be developing code using a technique called *Pair Programming*. There is an excellent article on the subject here: <a href="https://www.sitepoint.com/pair-programming-guide/" target="_blank">https://www.sitepoint.com/pair-programming-guide/</a> 
 
 <hr>
 
 The relevant resources include:
-- Prework Google form completed before lab (posted in announcement and here): https://forms.gle/cVukRNvGPjhKgW9j9
+- Prework Google form completed before lab (posted in announcement and here): <a href="https://forms.gle/cVukRNvGPjhKgW9j9" taget="_blank">https://forms.gle/cVukRNvGPjhKgW9j9</a>
 - Google Slide document with additional information and a slide that each group needs to complete. Links below.
-- A user account with codecollab.io. Go here: https://codecollab.io/
+- A user account with codecollab.io. Go here: <a href="https://codecollab.io" target="_blank">https://codecollab.io/</a>
 
 Groups for Lab A at 1:50pm
-- Google Document for this lab: https://docs.google.com/presentation/d/1UcBr1Ic2sObCh_m0J-dLroZjgNqHmubCySq0RuUjWP0/edit?usp=sharing
+- Google Document for this lab section <a href="https://docs.google.com/presentation/d/1UcBr1Ic2sObCh_m0J-dLroZjgNqHmubCySq0RuUjWP0/edit?usp=sharing" target="_blank">HERE</a>
 1. Ted S., Andy T.
 2. April P., Halah W., Chris T.
 3. Kaltun H., Annabelle A.,  Luna X. 
@@ -21,7 +21,7 @@ Groups for Lab A at 1:50pm
 7. Gavin U., Chris H.
 
 Groups for Lab B at 3:40pm
-- Google Document for this lab: https://docs.google.com/presentation/d/1pMvuG26FYaXcfJOKUVAGhogDyNKDNpZq6xF1yt5IR2Q/edit?usp=sharing
+- Google Document for this lab section <a href="https://docs.google.com/presentation/d/1pMvuG26FYaXcfJOKUVAGhogDyNKDNpZq6xF1yt5IR2Q/edit?usp=sharing" target="_blank">HERE</a>
 1. Noah D., Seymour P.
 2. Jonathan V, Collin C., Gregory S.
 3. Eric O., Eduardo DV., Josh K.
