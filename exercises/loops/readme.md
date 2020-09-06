@@ -9,24 +9,11 @@ The relevant resources include:
 - Prework Google form completed before lab (posted in announcement and here): <a href="https://forms.gle/cVukRNvGPjhKgW9j9" taget="_blank">https://forms.gle/cVukRNvGPjhKgW9j9</a>
 - Google Slide document with additional information and a slide that each group needs to complete. Links below.
 - A user account with codecollab.io. Go here: <a href="https://codecollab.io" target="_blank">https://codecollab.io/</a>
+- Zoom with access to codecollab at the same time.
 
-Groups for Lab A at 1:50pm
-- Google Document for this lab section <a href="https://docs.google.com/presentation/d/1UcBr1Ic2sObCh_m0J-dLroZjgNqHmubCySq0RuUjWP0/edit?usp=sharing" target="_blank">HERE</a>
-1. Ted S., Andy T.
-2. April P., Halah W., Chris T.
-3. Kaltun H., Annabelle A.,  Luna X. 
-4. Kourtnie B., Alyssa T., Khalid S.
-5. Temesgen B., Muhyadin A., Tou KL.
-6. Farah D., Khadar M., Wilson V.
-7. Gavin U., Chris H.
+Lab A at 1:50pm : Google Document for this lab section <a href="https://docs.google.com/presentation/d/1UcBr1Ic2sObCh_m0J-dLroZjgNqHmubCySq0RuUjWP0/edit?usp=sharing" target="_blank">HERE</a>
 
-Groups for Lab B at 3:40pm
-- Google Document for this lab section <a href="https://docs.google.com/presentation/d/1pMvuG26FYaXcfJOKUVAGhogDyNKDNpZq6xF1yt5IR2Q/edit?usp=sharing" target="_blank">HERE</a>
-1. Noah D., Seymour P.
-2. Jonathan V, Collin C., Gregory S.
-3. Eric O., Eduardo DV., Josh K.
-4. Elliot B., Abdirizak D., Mohamed
-5. Amal Y., Zaj L., Kevin G.
+Lab B at 3:40pm : Google Document for this lab section <a href="https://docs.google.com/presentation/d/1pMvuG26FYaXcfJOKUVAGhogDyNKDNpZq6xF1yt5IR2Q/edit?usp=sharing" target="_blank">HERE</a>
 
 <hr>
 
