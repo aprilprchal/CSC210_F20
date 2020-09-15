@@ -33,13 +33,12 @@ Provided Files:
 - Account.java : The base class for bank accounts.
 - Credit.java : The interface for a credit account (e.g. credit card)
 - Debit.java : The interface for a debit account (e.g. checking account)
-- TestLab0.java : The class that provides main(), the entry point for execution.
+- Main.java : The class that provides main(), the entry point for execution.
 
 <hr>
 
 Assessment:
 
-Complete the following to earn up to a C
 - 20% : complete, compiles, and executes without throwing exception
 - 10% : javadocs
 - 25% : `class Checking` requirements
@@ -47,7 +46,7 @@ Complete the following to earn up to a C
 - 10% : modification of `Account` for fees and interest rates
 - 10% : `class Transaction` requirements
 
-> To be graded, the main() method in TestLab0 must compile and execute without throwing an exception. Note that this does not mean you have to get the lab complete and perfect. It means that for every method called in main, you should have that method defined, even if it is empty and not doing anything. An empty method is called a "_stub_", which is a placeholder for future code (but is still executable). It is common to start a project by creating a stub for all the methods.
+> To be graded, the main() method in Main.java must compile and execute without throwing an exception. Note that this does not mean you have to get the lab complete and perfect. It means that for every method called in main, you should have that method defined, even if it is empty and not doing anything. An empty method is called a "_stub_", which is a placeholder for future code (but is still executable). It is common to start a project by creating a stub for all the methods.
 
 <hr>
 
@@ -151,12 +150,12 @@ Banks keep track of all transactions so that they can be reviewed. Add this func
   } // end class Transaction
   ```
 
-Add `Transaction.toString()`
-   ```
-	  public String toString() {
-	    return String.format("%s $%8.2f %s",date,amount,description);
-	  }
-	  ```
+- Add `Transaction.toString()`
+	```
+	public String toString() {
+		return String.format("%s $%8.2f %s",date,amount,description);
+	}
+	```
 
 - Create a member variable `transactions` in Account
   ```
