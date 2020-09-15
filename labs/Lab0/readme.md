@@ -2,6 +2,8 @@
 ### Due Tuesday, September 15 BEFORE class
 ### Zip it all up and submit to Moodle
 
+<mark>The important part about this assignment is writing the "helper" functions corresponding to the 4 JAVA Array Labs exercises in Java. You will write this in your editor (e.g. NetBeans, IntelliJ, Visual Studio Code, Atom). In addition to writing those helper functions, you will write a couple of tests for each function. I want you to show me that you understand how to write code that can be automatically tested. The final piece is writing getUserInput() to improve the proposed methods of zyBooks.</mark>
+
 In zyBooks Chapter 18, there was a series of programming exercises assigned. In each one, the function began by filling an array with user input, then doing something to the array. Here is an example of one of those exercises.
 
 ```Java
@@ -103,7 +105,7 @@ Notice that something is printed out only when the program is not working. This 
 
 ### YOUR ASSIGNMENT
 
-Follow the steps above to redo the zyBook assignments of Ch. 18. Create a helper function to take in user input to put into an array. Then write methods for each exercise using the method signatures as indicated:
+Follow the steps above to redo the zyBook assignments of Ch. 18 **IN A NEW JAVA PROJECT IN YOUR EDITOR (e.g. NetBeans, Intelli-J, Visual Studio Code)**. Create a helper function to take in user input to put into an array. Then write methods for each exercise using the method signatures as indicated:
 
 1. 18.14 Find the middle item.
 	```Java
