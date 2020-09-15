@@ -26,6 +26,13 @@ class LabProgram {
         // code for twoSmallest
     }
     
+    // --------------------------------------------------------------------
+    // ------------  getUserInput fn and print out  -----------------------
+    // --------------------------------------------------------------------
+    /** Asks user to input integers to store in the returned array */
+    public static int[] getUserInput() {
+        // code for getUserInput()
+    }
     /** Visual inspection to test the results of getUserInput() */
     public static void test_getUserInput() {
         int[] input = null;
