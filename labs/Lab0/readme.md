@@ -151,4 +151,6 @@ public static void main(String[] args) {
 }
 ```
 
+If you want something that makes use of a lot of helper functions, you can use the LabProgram.java framework included in this lab's directory.
+
 > The zyBooks assignment is still required so that you can have a sense of why this approach is an improvement. You can complete the assignments in zyBooks, then copy it to your machine to finish this lab, or complete this lab then copy code to zyBooks.
