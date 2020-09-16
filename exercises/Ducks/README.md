@@ -8,6 +8,8 @@ For each duck, make sure that there is a welcoming "Hi" message, and it's name, 
 
 For each, indicate either that it is correct or why it was wrong and/or how it was fixed. When you are done, zip your code along with your responses and submit to Moodle.
 
+NAMES: ____________________________________________________________
+
 1. Dottie. A raucus duck with typical speed that quacks.
 - "hi" message with correct information.
 - name
