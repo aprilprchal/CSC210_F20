@@ -35,8 +35,8 @@ public class Main {
 		Double balanceBefore =  omar.balance();
 		omar.applyInterest();
 		testValue = omar.balance();
-		if (!(testValue < balanceBefore)) {
-			System.out.println("applyInterest did not decrease bal.");
+		if (!(testValue > balanceBefore)) {
+			System.out.println("applyInterest did not increase bal.");
 		}
 
 		omar.minimumBalanceLimit(0.0);
