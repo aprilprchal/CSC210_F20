@@ -124,7 +124,7 @@ changeBalanceByAmount(balance*.182/12);
 
 Interest rates are defined annually, but applied monthly, hence it is divided by 12. For credit accounts, this is a charge that increases the balance (because now the owner owes more to the bank) but for debit accounts, this is earned interest (like with savings accounts) yet it also increases the balance. (_Isn't that funny that when you borrow money from the bank they think you should pay them 15-20% interest, but if you lend money to the bank, which is exactly what you are doing because they invest your money while they are "holding" it for you in your savings account, they think they should pay you 1-2% interest._ ) Anyway, back to the problem at hand ...
 
-Hard coding values is typically not good practice. Fix that by creating an `interestRate` member variable in _class Account_. The default for Checking is 0%. The default for Visa is 18.2%, expressed as .182.
+Hard coding values is typically not good practice. Fix that by creating an `interestRate` member variable in _class Account_. The default for Checking is 6% expressed as .06. The default for Visa is 18.2%, expressed as .182.
 
 <hr>
 <hr>
