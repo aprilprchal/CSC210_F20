@@ -8,12 +8,11 @@ public class main {
 			// check results
     }
 
-    public static void assertEqual(Vector2d A, Vector2d B,String msg) {
+    public static void assertEqual(Vector2d expect, Vector2d results,String msg) {
 		}
 
 		public static void assertEqual(
 			double x, double y, double threshold, String msg) {
-
 		}
 
 }
