@@ -29,7 +29,6 @@ _Javadocs_ is not required for testing, but please use good naming conventions a
 
 Assessment:
 
-Complete the following to earn up to a C
 - 18% : complete, compiles, and executes without throwing exception
 - 40% : `class testChecking` requirements
 - 40% : `class testDiscover` requirements
