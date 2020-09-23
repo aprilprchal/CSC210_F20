@@ -16,37 +16,37 @@ public class Vector2d {
 		/** create a new vector by adding v to this (x+x,y+y).
 		*/
     public Vector2d add(Vector2d v) {
-        return new Vector2d (x+v.x,y+y);
+        return new Vector2d (0,0);
     }
 
 		/** create a new vector by subtracting v from this (x-x,y-y)
 		*/
     public Vector2d subtract(Vector2d v) {
-        return new Vector2d(x-v.x,v.y-y);
+        return new Vector2d(0,0);
     }
 
 		/** multiply v and this and produce a scaler (x*x+y*y)
 		*/
     public double multiply(Vector2d v) {
-        return (x*x + y*y);
+        return 0.0;
     }
 
 		/** Calculate the magnitude based on x,y : sqrt(abs(x-x)^2+abs(y-y)^2))
 		*/
     public double magnitude() {
-        return Math.pow((x-x)*(x-x) + (y-y)*(y-y),5);
+        return 0.0;
     }
 
 		/** Calculate the direction in degrees based on x,y.  atan(y/x)
 		*/
     public double direction() {
-        return Math.atan(x/y);
+        return 0.0;
     }
 
 		/** rotate the vector 180 deg, essentially changing signs of x,y
 		*/
     public Vector2d rotate180() {
-        return new Vector2d(-x,y);
+        return new Vector2d(0,0);
     }
 
     public String toString() {
