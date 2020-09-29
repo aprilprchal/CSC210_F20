@@ -126,13 +126,14 @@ public class List {
   // *******************   CONVERT  ******************* //
   /**
   */
-  public Song[] toArray(Song) {
+  public Song[] toArray() {
     return null;
   } // end toArray(song)
 
   /**
    */
   public List sublist(int start, int end) {
+    return null;
 
   } // end sublist()
 

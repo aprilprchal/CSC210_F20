@@ -25,10 +25,10 @@ public class Song {
   @Override
   public String toString() {
     if (year.equals("unknown")) {
-      return String.format("%35s by %s. %s",title,artist,album);
+      return String.format("%15s by %s. %s",title,artist,album);
     }
     else {
-      return String.format("%35s by %s. %s (%s)",title,artist,album,year);
+      return String.format("%15s by %s. %s (%s)",title,artist,album,year);
     }
   }
 
