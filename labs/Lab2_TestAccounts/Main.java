@@ -103,8 +103,8 @@ public class TestChecking {
 		Checking annika = new Checking("Annika Haas");	// 0.0 balance
 
 		double balance = annika.balance();
-		annika.cashMakeDeposit(100.00);
-		assertEquals(balance+100.0,0.0,"Deposit $100 into $0.");
+		annika.MakeDeposit(100.00);
+		assertEquals(balance+100.0,annika.balance(),0.0,"Deposit $100 into $0.");
 
 		// @@@@@@@@@@@@@ WRITE THIS
 		// Write another test to deposit when balance is not at $0
