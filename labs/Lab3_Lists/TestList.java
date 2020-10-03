@@ -4,37 +4,37 @@ import java.io.*;
 
 public class TestList {
 
-  static Song iggy = new Song("Dum Dum Boys","Iggy Pop","The Idiot","1977");
-  static Song pil = new Song("Swan Lake","Public Image Ltd.","Second Edition","1980");
-  static Song femmes = new Song("Add It Up","Violent Femmes","Violent Femmes","1983");
+	static Song iggy = new Song("Dum Dum Boys","Iggy Pop","The Idiot","1977");
+	static Song pil = new Song("Swan Lake","Public Image Ltd.","Second Edition","1980");
+	static Song femmes = new Song("Add It Up","Violent Femmes","Violent Femmes","1983");
 
-  public static void main(String[] args) {
+	public static void main(String[] args) {
 
-    // Initial add() and peek() test
-    /* It is a bit of a chicken-and-egg problem.
-    * To test add(), peek() needs to be correct to confirm song was added.
-    * To test peek(), add() needs to be correct to confirm location of song.
-    */
+		// Initial add() and peek() test
+		/* It is a bit of a chicken-and-egg problem.
+		* To test add(), peek() needs to be correct to confirm song was added.
+		* To test peek(), add() needs to be correct to confirm location of song.
+		*/
 
-      System.out.println("\n\nSanity check test of add, length, peek.");
-      System.out.println("If these initial tests do not pass, the rest of the tests are irrelevant!");
-    List songs = new List(5);
-    songs.add(iggy);
-    assertEquals(1,songs.length(),"First Add (length)");
-    assertEquals(iggy,songs.peek(0),"Fird Add (iggy)");
-    /* Once the above are confirmed to be working, the rest of the testing can proceed.
-    */
+		System.out.println("\n\nSanity check test of add, length, peek.");
+		System.out.println("If these initial tests do not pass, the rest of the tests are irrelevant!");
+		List songs = new List(5);
+		songs.add(iggy);
+		assertEquals(1,songs.length(),"First Add (length)");
+		assertEquals(iggy,songs.peek(0),"Fird Add (iggy)");
+		/* Once the above are confirmed to be working, the rest of the testing can proceed.
+		*/
 
-    testConstructorGetters();
-    testSearches();
-    testAdds();
-    testRemoves();
-    testConvert();
-  }
+		testConstructorGetters();
+		testSearches();
+		testAdds();
+		testRemoves();
+		testConvert();
+	}
 
 
-  public static void testConstructorGetters() {
-    System.out.println("\n\nTesting List constructor ...");
+	public static void testConstructorGetters() {
+		System.out.println("\n\nTesting List constructor ...");
 
 		// Test default constructor and getters
 		List jams = new List ();
@@ -43,16 +43,16 @@ public class TestList {
 		assertEquals(true, jams.isEmpty(), "List() isEmpty");
 
 		// Test constructor with size parameter
-    List songs = new List(5);
+		List songs = new List(5);
 		assertEquals(0, songs.length(), "List(5) length");
-    assertEquals(5, songs.capacity(), "List(5) capacity");
+		assertEquals(5, songs.capacity(), "List(5) capacity");
 		assertEquals(true, songs.isEmpty(), "List(5) isEmpty");
 
 		// Test length getter (tested at 0 above)
 		songs.add(pil);
-    assertEquals(1,songs.length(),"length()");
+		assertEquals(1,songs.length(),"length()");
 
-    // Test isEmpty and isFull.
+		// Test isEmpty and isFull.
 		List tunes = new List(3);
 		assertEquals(false, tunes.isFull(), "isFull - empty");
 		assertEquals(true, tunes.isEmpty(), "isEmpty");
@@ -67,12 +67,12 @@ public class TestList {
 		assertEquals(false, tunes.isEmpty(), "isEmpty - 3 of 3");
 
 
-  }
+	}
 
 	public static void testSearches() {
 		System.out.println("\n\nTesting List search methods ...");
 
-    // check that search compares values (ignoring case), not references
+		// check that search compares values (ignoring case), not references
 		Song iggy = new Song("Dum Dum boys","Iggy pop","The idiot","1977");
 		Song pil = new Song("Swan lake","Public image Ltd.","Second edition","1980");
 		Song femmes = new Song("Add it up","violent femmes","violent femmes","1983");
@@ -101,8 +101,8 @@ public class TestList {
 		assertEquals(false,songs.contains(s),"Contains() not in list.");
 	}
 
-  public static void testAdds() {
-    System.out.println("\n\nTesting List add methods ...");
+	public static void testAdds() {
+		System.out.println("\n\nTesting List add methods ...");
 
 		// more songs to work with
 		Song wire = new Song("Map Ref 41 Degrees", "Wire", "154", "1979");
@@ -310,8 +310,8 @@ public class TestList {
 
 	}
 
-  public static void testConvert() {
-    System.out.println("\n\nTesting List convert methods ...");
+	public static void testConvert() {
+		System.out.println("\n\nTesting List convert methods ...");
 
 		Song[] array;
 
@@ -328,13 +328,13 @@ public class TestList {
 			"ERROR: toArray empty list. Expect null. Results not null.");
 		}
 
-    songs.add(iggy);
-    array = songs.toArray();
+		songs.add(iggy);
+		array = songs.toArray();
 		if (null==array) {
 			System.out.println("ERROR: toArray 1 element. Returns null.");
 		} else {
 			assertEquals(1,array.length,"toArray 1 element (length)");
-    	assertEquals(array[0], iggy, "toArray 1 element (value)");
+			assertEquals(array[0], iggy, "toArray 1 element (value)");
 		}
 
 		songs.add(pil); // songs = {iggy,pil}
@@ -432,22 +432,22 @@ public class TestList {
 			System.out.println(
 			"ERROR: sublist end<start index. Expect null. Results not null.");
 		}
-  }
+	}
 
-  static void assertEquals(Song expect, Song result, String msg) {
+	static void assertEquals(Song expect, Song result, String msg) {
 		if (null==expect && null==result) {
 			return;
 		}
 		if (null==expect || !expect.equals(result)) {
-      System.out.println("ERROR: "+msg+". Expected "+expect+". Result "+result);
-    }
-  }
+			System.out.println("ERROR: "+msg+". Expected "+expect+". Result "+result);
+		}
+	}
 
-  static void assertEquals(int expect, int result, String msg) {
-    if (expect != result) {
-      System.out.println("ERROR: "+msg+". Expected "+expect+". Result "+result);
-    }
-  }
+	static void assertEquals(int expect, int result, String msg) {
+		if (expect != result) {
+			System.out.println("ERROR: "+msg+". Expected "+expect+". Result "+result);
+		}
+	}
 	static void assertEquals(boolean expect, boolean result, String msg) {
 		if (expect != result) {
 			System.out.println("ERROR: "+msg+". Expected "+expect+". Result "+result);
