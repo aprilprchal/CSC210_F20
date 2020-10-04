@@ -185,16 +185,16 @@ public class TestList {
 		assertEquals(tv,jams.peek(2),"set(2) value");
 		assertEquals(wire,jams.peek(0),"set(2) (1st song)");
 		assertEquals(heat,jams.peek(1),"set(2) (2nd song)");
-		//  invalid indices.
+		//  invalid indices. should not change {wire,heat,tv}
 		jams.set(iggy,3);	// set 1 past the last element
-		assertEquals(3,jams.length(),"set at length (length)");
-		assertEquals(null,jams.peek(3),"set at length (value)");
+		assertEquals(3,jams.length(),"set at length, bad index (length)");
+		assertEquals(null,jams.peek(3),"set at length, bad index (value)");
 		jams.set(pil,5);
-		assertEquals(3,jams.length(),"set at capacity (length)");
-		assertEquals(null,jams.peek(5),"set at capacity (value)");
+		assertEquals(3,jams.length(),"set at capacity, bad index (length)");
+		assertEquals(null,jams.peek(5),"set at capacity, bad index (value)");
 		jams.set(pil,-1);
 		assertEquals(3,jams.length(),"set at -1 (length)");
-		assertEquals(null,jams.peek(0),"set at -1 (value)");
+		assertEquals(wire,jams.peek(0),"set at -1 (value)");
 	}
 
 	public static void testRemoves() {
@@ -232,7 +232,7 @@ public class TestList {
 		songs.remove(iggy);
 		assertEquals(1,songs.length(),"remove first (length)");
 		assertEquals(false,songs.contains(iggy),"remove first");
-		assertEquals(femmes,songs.peek(1),"remove first (1st song)");
+		assertEquals(femmes,songs.peek(0),"remove first (1st song)");
 		// songs = {}
 		songs.remove(femmes);
 		assertEquals(0,songs.length(),"remove last element (length)");
@@ -244,7 +244,7 @@ public class TestList {
 		assertEquals(0,songs.length(),"remove from empty");
 		songs.add(pil);
 		songs.remove(femmes);
-		assertEquals(0,songs.length(),"remove not in list");
+		assertEquals(1,songs.length(),"remove not in list");
 		assertEquals(pil,songs.peek(0),"remove not in list (1st song)");
 
 		// remove(index) ------------------------------------------------
@@ -288,10 +288,10 @@ public class TestList {
 		assertEquals(0,songs.length(),"remove from empty");
 		songs.add(pil);
 		songs.remove(1);
-		assertEquals(0,songs.length(),"remove not in list");
+		assertEquals(1,songs.length(),"remove not in list");
 		assertEquals(pil,songs.peek(0),"remove not in list (1st song)");
 		songs.remove(-1);
-		assertEquals(0,songs.length(),"remove at -1");
+		assertEquals(1,songs.length(),"remove at -1");
 		assertEquals(pil,songs.peek(0),"remove at -1 (1st song)");
 
 
