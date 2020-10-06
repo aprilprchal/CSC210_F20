@@ -172,7 +172,7 @@ public class TestList {
 		assertEquals(3,jams.length(),"set(0) length");
 		assertEquals(wire,jams.peek(0),"set(0) value");
 		assertEquals(pil,jams.peek(1),"set(0) (2nd song)");
-		assertEquals(iggy,jams.peek(2),"set(0) (3rd song)");
+		assertEquals(femmes,jams.peek(2),"set(0) (3rd song)");
 		// jams = {wire,heat,femmes}. Set at middle element
 		jams.set(heat,1);
 		assertEquals(3,jams.length(),"set(1) length");
