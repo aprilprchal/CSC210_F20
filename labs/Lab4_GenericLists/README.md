@@ -1,4 +1,4 @@
-### Lab 3 : Using Generics with a LIST Abstract Data Type
+### Lab 4 : Using Generics with a LIST Abstract Data Type
 #### Due Tuesday, October 13 before lab
 #### Submit a single zipped file to Moodle
 
@@ -18,17 +18,6 @@ General Requirements:
 3. Modify the `class ListArray` to use generics `<T>`
 4. Extend functionality of _ListArray_
 3. Document all code with Javadocs.
-
-<hr>
-
-Assessment:
-
-- 20% : complete, compiles, and executes without throwing exception
-- 15% : javadocs
-- 20% : convert code to use an interface and generics
-- 20% : extend functionality
-- 13% : Splicing and Compbining the List
-- 12% : Managing Capacity
 
 <hr>
 
