@@ -45,13 +45,15 @@ public class Song {
     }
     // typecast other to Song so that we can compare data members
     Song otherSong = (Song) other;
-    // vvvvvvvvvvvvvvv   FINISH THIS EQUALS
-    /* CHECK THAT 
-    title, 
-    artist, 
-    album are same. use equalsIgnoreCase
-    */
-    return true;
+    
+		if (title.equalsIgnoreCase(otherSong.title)) {
+			if (artist.equalsIgnoreCase(otherSong.artist)) {
+				if (artist.equalsIgnoreCase(otherSong.album)) {
+					return true;
+				}
+			}
+		}
+    return false;
   }
 
   public String title() { return title; }
