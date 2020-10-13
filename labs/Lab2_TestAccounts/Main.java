@@ -18,12 +18,12 @@ public class TestChecking {
 
 	public static void assertEquals(
 		Double expect, Double result, Double threshold, String msg) {
-		if (/* FILL THIS IN -- use absolute value */) {
+		if (Math.abs(expect - result) > threshold) {
 			System.out.println(msg+" Expect "+expect+". Result "+result);
 		}
 	}
 	public static void assertEquals(String expect, String result, String msg) {
-		if (/* FILL THIS IN -- use compareTo for strings */)) {
+		if (!expect.equals(result)) {
 			System.out.println(msg+" Expect "+expect+". Result "+result);
 		}
 	}
