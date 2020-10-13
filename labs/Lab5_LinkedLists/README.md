@@ -38,7 +38,7 @@ Use the tests from Lab 3 / Lab 4 to confirm everything is working.
 
 #### Deliverables
 
-1. Complete this Google Form related to your plan to work together (due Tue, October 14): https://forms.gle/b4VQjT25mSgMVjFUA
+1. Complete this Google Form related to your plan to work together (due Tue, October 14): <a href = "https://forms.gle/b4VQjT25mSgMVjFUA" target="_blank">https://forms.gle/b4VQjT25mSgMVjFUA </a>
 
 2. Create a single version of the lab to be submitted. You can either each work independently, then confer to combine results, or work together on a single version from the beginning.
 
