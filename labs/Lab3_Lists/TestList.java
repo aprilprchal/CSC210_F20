@@ -275,7 +275,7 @@ public class TestList {
 		// songs = {femmes}
 		assertEquals(1,songs.length(),"remove first (length)");
 		assertEquals(false,songs.contains(iggy),"remove first");
-		assertEquals(femmes,songs.peek(1),"remove first (1st song)");
+		assertEquals(femmes,songs.peek(0),"remove first (1st song)");
 
 		songs.remove(0);
 		// songs = {}
