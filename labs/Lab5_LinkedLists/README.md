@@ -45,4 +45,4 @@ Use the tests from Lab 3 / Lab 4 to confirm everything is working.
 
 3. Before lab on October 20th, submit the one version (only one of you submits it).
 
-4. EACH member complete this Google Form after you submit the lab. It asks you about everyone's contribution to the lab (to be posted).
+4. EACH member complete this Google Form after you submit the lab. It asks you about everyone's contribution to the lab. https://forms.gle/P84zg1J2HJ9yvd5c7
