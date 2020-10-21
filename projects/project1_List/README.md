@@ -26,7 +26,7 @@
 
 ### Getting Started
 
-Start by creating a new project with all of your code from Lab 4. Add the _ListLinked.java_ file to the project. The file _List.java_ ensures that your List has all required methods.
+This project is building from your List and ListArray implementation. You probably already started it with Lab 5 by creating ListLinked.java from a copy of LIstArray.java. The file _List.java_ ensures that your List has all required methods.
 
 ### Primary Directive
 
