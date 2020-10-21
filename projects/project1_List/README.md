@@ -50,7 +50,6 @@ public boolean containsAll(T[] array);
 
 #### Assessment:
 
-Complete the following to earn up to a C
 - 15% : complete, compiles, and executes without throwing exception
 - 10% : javadocs
 - 65% : ListLinked passing all tests
