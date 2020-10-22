@@ -50,7 +50,9 @@ public int lastIndexOf(T el);
 public boolean containsAll(T[] array);
 ```
 
-#### Unit Testing
+<hr>
+
+### Unit Testing
 
 I have created a new set of test files for unit testing. These files allow you to test both your array and linked list implementation with (mostly) the same tests. There is a separate file for each set of behaviors (e.g. searches, adds, removes, and converts). Within each file, a separate method has been created to test the corresponding method in your implementation. For example, in TestSearches there is a method find() that tests only your find method. ALL tests for all methods will run when you run TestList.java (just like before).
 
@@ -62,12 +64,16 @@ I have also included linkPass.txt and arrayPass.txt. **If your output matches th
 
 My last comment is that this is not likely how you would see this put together in an industry setting. You would probably use formal testing platforms (like JUnit) rather than this "homegrown" version. You would probably have everything in packages. And you would probably put all the test code in its own directory so that it doesn't clutter the production code. (And for "bad" input or erroneous conditions, you would probably be throwing exceptions instead of printing error messages.) It has been structured this way for ease-of-use and ease-of-grading.
 
+<hr>
+
 #### Assessment:
 
 - 15% : complete, compiles, and executes without throwing exception
 - 10% : javadocs
 - 65% : ListLinked passing all tests
 - 10% : ListArray passing all tests
+
+<hr>
 
 #### Extra Credit
 
