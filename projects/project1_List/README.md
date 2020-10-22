@@ -20,7 +20,7 @@
 2. Add _lastIndexOf_ and _containsAll_ to _List_ and implement in _ListLinked_.
 2. Extend functionality of _ListArray_ to match _ListLinked_.
 2. Document all code using Javadocs.
-1. Verify code using tests from Lab 4.
+1. Verify code using tests from this directory (see guide below).
 
 <hr>
 
@@ -48,6 +48,18 @@ public int lastIndexOf(T el);
 public boolean containsAll(T[] array);
 ```
 
+#### Unit Testing
+
+I have created a new set of test files for unit testing. These files allow you to test both your array and linked list implementation with (mostly) the same tests. There is a separate file for each set of behaviors (e.g. searches, adds, removes, and converts). Within each file, a separate method has been created to test the corresponding method in your implementation. For example, in TestSearches there is a method find() that tests only your find method. ALL tests for all methods will run when you run TestList.java (just like before).
+
+You can select whether or not you are testing your array implementation or your linked list implementation by setting the variable _testArray_ in TestList.java. Alternatively, you can select using command-line arguments (if you execute at the command line instead of in your IDE). Before you submit, make sure this TestList file is compiling for both implementations!
+
+I have also included linkPass.txt and arrayPass.txt. **If your output matches the text in those files, then you are passing all of your tests.** If you have error messages not related to the tests (e.g. "Index out of range."), I recommend that you remove them (or comment them out) so that the output is clean and you can easily determine if your tests are passing.
+
+> NOTE: I have zipped up these files and posted on Moodle in the Project Section on the front page (scroll down) so that you do not have to download all of the repository to get access.
+
+My last comment is that this is not likely how you would see this put together in an industry setting. You would probably use formal testing platforms (like JUnit) rather than this "homegrown" version. You would probably have everything in packages. And you would probably put all the test code in its own directory so that it doesn't clutter the production code. (And for "bad" input or erroneous conditions, you would probably be throwing exceptions instead of printing error messages.) It has been structured this way for ease-of-use and ease-of-grading.
+
 #### Assessment:
 
 - 15% : complete, compiles, and executes without throwing exception
@@ -55,7 +67,9 @@ public boolean containsAll(T[] array);
 - 65% : ListLinked passing all tests
 - 10% : ListArray passing all tests
 
-#### Extra Credit 
+#### Extra Credit
+
+I have not provided any tests for the extra credit methods.
 
 - For both arrays and linked lists, implement void removeDuplicates(). This should search for and remove any duplicate entries of any element.
 - For both arrays and linked lists, implement void map(UnaryOperator<T> op), in which you modify every element by _applying_ the operator. The UnaryOperator is a _lambda function_ which you can pass around just like you pass a variable.
