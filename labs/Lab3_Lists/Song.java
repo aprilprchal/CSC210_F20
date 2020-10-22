@@ -48,7 +48,7 @@ public class Song {
     
 		if (title.equalsIgnoreCase(otherSong.title)) {
 			if (artist.equalsIgnoreCase(otherSong.artist)) {
-				if (artist.equalsIgnoreCase(otherSong.album)) {
+				if (album.equalsIgnoreCase(otherSong.album)) {
 					return true;
 				}
 			}
