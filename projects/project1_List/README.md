@@ -28,6 +28,8 @@
 
 This project is building from your List and ListArray implementation. You probably already started it with Lab 5 by creating ListLinked.java from a copy of LIstArray.java. The file _List.java_ ensures that your List has all required methods.
 
+> NOTE: there was a typo in Song in equals. Please replace your Song.java file with the one in this directory (it is also bundled in the zip file on Moodle).
+
 ### Primary Directive
 
 You have essentially already completed half of this project. The other half is to repeat what you did, except use linked lists instead of arrays. And there are a few new methods to implement in both array and linked list.
