@@ -19,10 +19,10 @@ Here are your tasks:
 6. But wait, maybe I want to have the option of setting the order!! Add this to Person:
 
 	```
-/** static variable to determine how to order persons */
-private static String orderBy = "last";
-public static void orderBy(String field) { orderBy = field; }
-```
+	/** static variable to determine how to order persons */
+	private static String orderBy = "last";
+	public static void orderBy(String field) { orderBy = field; }
+	```
 
 7. AND, change your compareTo method so that it checks the orderBy value and returns the results of the comparison of the specified field. The user should be able to sort by lastName, id, or age.
 
