@@ -12,12 +12,12 @@ class TestRecursion {
   }
 
   /** Create a recursive algorithm to sum up to index n **/
-  public static void sumUpTo(int[] A, int n) {
+  public static int sumUpTo(int[] A, int n) {
 
   }
 
   /** Create a recursive algorithm to sum from start to end index */
-  public static void sum(int[] A, int start, int end) {
+  public static int sum(int[] A, int start, int end) {
 
   }
 }
