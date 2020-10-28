@@ -29,3 +29,11 @@ Here are your tasks:
 8. Before you create the list, set the order with something like: `Person.orderBy("id");`
 
 9. Try the different orderings and make sure it is working correctly.
+
+<hr>
+
+The next step is to use a Comparator to determine ordering of the elements. This gives the user a lot of flexibility! In the next project, you will implement a sorting algorithm that makes use of a user-defined Comparator. Then the user can change the sorting order -- maybe they need a list sorted by last name or maybe by age -- their choice!
+
+Create a variable in the OrderedList class that stores a Comparator object and create a setter for that variable. It should be initialized to null. If it is null, use the compareTo method of the T type to order elements. If it is not null, use the compare method of the Comparator object to order elements.
+
+
