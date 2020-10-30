@@ -1,6 +1,6 @@
 ### Lab 6 : Iteration, Recursion, and Binary Search
 ##### Due Monday, Nov 2 (no lab Tuesday -- Happy Voting Day!!)
-##### Submit a single zipped file to Moodle (only 1 per group)
+##### Submit a single zipped file to Moodle
 
 ##### DUE TODAY, October 27 in-lab exercises. Submit via Moodle.
 
@@ -44,10 +44,3 @@ Once you have completed the Person class (which you will have time to work on wi
 
 ^ Compilation means that the TestRecursion.java and TestNumbers.java files compile without me having to modify anything. As stated in class, submitting a lab or a project that does not compile will result in an automatic 10% reduction. You will have to fix it so that I can grade it.
 
-
-
-
-
-
-
-> SUBMIT this work on Moodle.
