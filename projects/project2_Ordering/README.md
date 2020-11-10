@@ -1,4 +1,5 @@
 ## Project 2 Ordered List
+## DUE Tuesday, November 24 end-of-day
 #### Zip all files and submit via Moodle
 
 > You must earn 60%+ on this project to pass the course. You will be given the opportunity to rework the project until it meets the threshold.
