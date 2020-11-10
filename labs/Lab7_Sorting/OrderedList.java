@@ -41,7 +41,7 @@ public class OrderedList<T extends Comparable<T>> {
 		if (numberOfItems >= items.length) {
 			return;
 		}
-		add[numberOfItems] = element;
+		items[numberOfItems] = element;
 		++numberOfItems;
 	}
 
